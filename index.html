@@ -333,13 +333,13 @@
     }
 
     .footer-dev {
-      margin-top: 4px;
+    .footer-dev {
+      margin-top: 8px;
       font-size: 11px;
       color: rgba(255,255,255,0.35);
       letter-spacing: 0.3px;
+      line-height: 1.7;
     }
-
-    .footer-dev a {
       color: rgba(255,255,255,0.5);
       text-decoration: none;
       transition: color 0.2s;
@@ -1259,8 +1259,8 @@
         </div>
         <div class="prod-info">
           <div class="prod-nome">🍫 Brownie Nutella</div>
-          <div class="prod-preco">R$ 15,00</div>
-          <button class="btn-pedir" onclick="pedirProduto(this,'Brownie Nutella',15)"><span class="btn-txt-add">🛒 Pedir</span><span class="btn-txt-rem">✓ Adicionado</span></button>
+          <div class="prod-preco">R$ 20,00</div>
+          <button class="btn-pedir" onclick="pedirProduto(this,'Brownie Nutella',20)"><span class="btn-txt-add">🛒 Pedir</span><span class="btn-txt-rem">✓ Adicionado</span></button>
         </div>
       </div>
       <div class="prod-card" data-cat="Caseirinho">
@@ -1343,8 +1343,8 @@
         </div>
         <div class="prod-info">
           <div class="prod-nome">🌺 Caseirinho Maracujá</div>
-          <div class="prod-preco">R$ 20,00</div>
-          <button class="btn-pedir" onclick="pedirProduto(this,'Caseirinho Maracujá',20)"><span class="btn-txt-add">🛒 Pedir</span><span class="btn-txt-rem">✓ Adicionado</span></button>
+          <div class="prod-preco">R$ 25,00</div>
+          <button class="btn-pedir" onclick="pedirProduto(this,'Caseirinho Maracujá',25)"><span class="btn-txt-add">🛒 Pedir</span><span class="btn-txt-rem">✓ Adicionado</span></button>
         </div>
       </div>
       <div class="prod-card" data-cat="Caseirinho">
@@ -1756,10 +1756,17 @@
 
     </div>
     <div class="footer-dev">
-      Desenvolvido por <a href="https://bio.site/Gt_nicohat" target="_blank" rel="noopener">Nicolas Santana de Souza</a>
+      <strong style="display:block;color:rgba(255,255,255,0.55);font-size:11px;letter-spacing:1px;margin-bottom:6px;">O QUE FOI DESENVOLVIDO</strong>
+      1. Nova categoria <em>Bolo na Forma</em> com filtro dedicado &nbsp;•&nbsp;
+      2. 2 produtos adicionados: Milho Natural (R$30) e Cenoura c/ Chocolate e Granule (R$50) &nbsp;•&nbsp;
+      3. Carousel de 3 fotos com setas para o Bolo de Chocolate &nbsp;•&nbsp;
+      4. Sistema de agendamento exclusivo para Bolos na Forma com redirecionamento ao WhatsApp &nbsp;•&nbsp;
+      5. Aviso automático no carrinho ao pedir produtos sob encomenda &nbsp;•&nbsp;
+      6. Alerta ao misturar Bolos na Forma com outros produtos &nbsp;•&nbsp;
+      7. Todas as imagens convertidas em base64 &nbsp;•&nbsp;
+      8. Rodapé atualizado com logo, Instagram e WhatsApp clicáveis
     </div>
   </footer>
-
     <script>
     const WA_NUMBER = '5511940772750';
 
@@ -2050,5 +2057,3 @@ Pedido pelo cardápio online ✨`;
 </body>
 
 </html>
-
-            
